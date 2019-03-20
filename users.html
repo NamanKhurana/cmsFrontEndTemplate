@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ALPHA CMS: Users</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cerulean/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Dashboard <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="pages.html">Pages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="categories.html">Categories</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="users.html">Users</a>
+                </li>
+                <li class="nav-item">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2 search-form" type="text" placeholder="Search">
+                        <button class="btn btn-secondary my-2 my-sm-0 search-form" type="submit">Search</button>
+                    </form>
+                </li>
+            </ul>
+            <div class=" dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" style="color:white;">
+                    My Account
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Profile</a>
+                    <a class="dropdown-item" href="login.html">Logout</a>
+                </div>
+            </div>
+    </nav>
+    <br><br>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="list-group">
+                        <a href="index.html" class="list-group-item list-group-item-action">
+                            <i class="fas fa-tachometer-alt"></i><span class="dash">Dashboard</span>
+                        </a>
+                        <a href="pages.html" class="list-group-item list-group-item-action"><i
+                                class="fas fa-file "></i><span class="pa">Pages</span></a>
+                        <a href="categories.html" class="list-group-item list-group-item-action"><i
+                                class="fas fa-folder-open"></i><span class="cat">Categories</span></a>
+                        <a href="users.html" class="list-group-item list-group-item-action active"><i
+                                class="fas fa-user"></i><span>User
+                                Accounts</span></a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 class="page-header"><i class="fas fa-users"></i>&nbsp;Users</h1>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="btn-group actions" role="group" aria-label="Basic example">
+                                <a href="#" class="btn btn-light"><i class="fas fa-plus"></i>&nbsp;New</a>
+                                <a href="#" class="btn btn-light"><i class="fas fa-edit"></i>&nbsp;Edit</a>
+                                <a href="#" class="btn btn-light"><i class="fas fa-trash-alt"></i>&nbsp;Delete</a>
+                            </div>
+                        </div>
+                        <nav aria-label="breadcrumb" class="col-md-12">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Users</li>
+                            </ol>
+                        </nav>
+                        <table id="sort-table" class="table table-striped tablesorter-header">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Full Name&nbsp;<i class="fas fa-chevron-down"></i></th>
+                                    <th scope="col">Email&nbsp;<i class="fas fa-chevron-down"></i></th>
+                                    <th scope="col">Group&nbsp;<i class="fas fa-chevron-down"></i></th>
+                                </tr>
+                            </thead>
+                            <t<tr>
+                                <td><a href="user.html">Shyam</a></td>
+                                <td>technopath@gmail.com</td>
+                                <td>Admin</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="user.html">Rohan</a></td>
+                                    <td>techguy@gmail.com</td>
+                                    <td>Registerd</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="user.html">Mohan</a></td>
+                                    <td>psycopath@gmail.com</td>
+                                    <td>Registered</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="user.html">Sohan</a></td>
+                                    <td>geekysmath@gmail.com</td>
+                                    <td>Admin</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="user.html">Ali</a></td>
+                                    <td>geekysmath@gmail.com</td>
+                                    <td>Admin</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="page.html">Mishan</a></td>
+                                    <td>codermishan@gmail.com</td>
+                                    <td>Registered</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="user.html">Arshad</a></td>
+                                    <td>geekysmath@gmail.com</td>
+                                    <td>Registered</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="user.html">Sayed</a></td>
+                                    <td>geekysmath@gmail.com</td>
+                                    <td>Admin</td>
+                                </tr>
+                                </tbody>
+                        </table>
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination offset-md-11">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <p>Copyright&copy; 2019, All Rights Reserved</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.0.6/js/jquery.tablesorter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $("#sort-table").tablesorter({
+                sortList: [[0, 0], [1, 0]]
+            })
+        })
+    </script>
+    <script>
+        var $rows = $("table tr");
+        $(".search-form").keyup(function () {
+            var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
+            $rows.show().filter(function () {
+                var text = $(this).text().replace(/\s +/g, ' ').toLowerCase();
+                return !~text.indexOf(val);
+            }).hide();
+        })
+    </script>
+</body>
+
+</html>

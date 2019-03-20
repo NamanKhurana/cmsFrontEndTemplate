@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ALPHA CMS</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cerulean/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Dashboard <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages.html">Pages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="categories.html">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="users.html">Users</a>
+                </li>
+                <li class="nav-item">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </li>
+            </ul>
+            <div class=" dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" style="color:white;">
+                    My Account
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Profile</a>
+                    <a class="dropdown-item" href="login.html">Logout</a>
+                </div>
+            </div>
+    </nav>
+    <br><br>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="list-group">
+                        <a href="index.html" class="list-group-item list-group-item-action active">
+                            <i class="fas fa-tachometer-alt"></i><span class="dash">Dashboard</span>
+                        </a>
+                        <a href="pages.html" class="list-group-item list-group-item-action"><i class="fas fa-file "></i><span
+                                class="pa">Pages</span></a>
+                        <a href="categories.html" class="list-group-item list-group-item-action"><i
+                                class="fas fa-folder-open"></i><span class="cat">Categories</span></a>
+                        <a href="users.html" class="list-group-item list-group-item-action"><i class="fas fa-user"></i><span>User
+                                Accounts</span></a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h1 class="page-header"> <i class="fas fa-tachometer-alt"></i>&nbsp;Dashboard</h1>
+                    <h3>Latest Pages</h3>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Page Title</th>
+                                <th scope="col">Category</th>
+                                <th scope="col">Author</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a class="page.html">Sample Page One</a></td>
+                                <td>Category One</td>
+                                <td>John Doe</td>
+                            </tr>
+                            <tr>
+                                <td><a class="page.html">Sample Page Two</a></td>
+                                <td>Category Two</td>
+                                <td>John Doe</td>
+                            </tr>
+                            <tr>
+                                <td><a class="page.html">Sample Page Three</a></td>
+                                <td>Category One</td>
+                                <td>FOOS MEDIA</td>
+                            </tr>
+                            <tr>
+                                <td><a class="page.html">Sample Page Four</a></td>
+                                <td>Category Two</td>
+                                <td>FOOS MEDIA</td>
+                            </tr>
+                            <tr>
+                                <td><a class="page.html">Sample Page Five</a></td>
+                                <td>Category Three</td>
+                                <td>FAZZ</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a class="btn btn-light" href="pages.html">View All Pages</a>
+                    <hr>
+                    <h3>Latest Users</h3>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Group</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a class="user.html">Shyam</a></td>
+                                <td>technopath@gmail.com</td>
+                                <td>Admin</td>
+                            </tr>
+                            <tr>
+                                <td><a class="user.html">Rohan</a></td>
+                                <td>techguy@gmail.com</td>
+                                <td>Registerd</td>
+                            </tr>
+                            <tr>
+                                <td><a class="user.html">Mohan</a></td>
+                                <td>psycopath@gmail.com</td>
+                                <td>Admin</td>
+                            </tr>
+                            <tr>
+                                <td><a class="user.html">Sohan</a></td>
+                                <td>geekysmath@gmail.com</td>
+                                <td>Admin</td>
+                            </tr>
+                            <tr>
+                                <td><a class="page.html">Mishan</a></td>
+                                <td>codermishan@gmail.com</td>
+                                <td>Registered</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a class="btn btn-light" href="users.html">View All Users</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright&copy; 2019, All Rights Reserved</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
